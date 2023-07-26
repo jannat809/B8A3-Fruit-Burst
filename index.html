@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fruit</title>
+    <title>Fruit Burst</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
@@ -20,7 +20,7 @@
             font-family: 'Lato', sans-serif;
         }
     </style>
-
+<!--tailwind and daisy custom color -->
     <script>
         tailwind.config = {
           theme: {
@@ -33,14 +33,16 @@
           }
         }
       </script>
+      <!-- favicon -->
+      <link rel="shortcut icon" type="x-icon" href="images/logo.png">
 
 </head>
 
 <body class="font-family" >
 
     <header class="mx-auto container ">
-
-       <nav class="box-border px-14  bg-fruit-primary-bg my-14 py-6 rounded-[600px]">
+<!-- nav section from here -->
+       <nav class="box-border px-6 bg-fruit-primary-bg my-15 py-6 rounded-full mb-14">
 
         <div class=" flex items-center justify-between md:flex-row flex-wrap flex-row-reverse">
             <div class="">
@@ -53,7 +55,7 @@
                   <li><a href="#">Home</a></li><li><a href="#">About Us</a></li><li><a href="#">Shop</a></li><li><a href="#">All Fruits</a></li>
                   <div class=" sm:hidden  p-2 rounded-3xl bg-white box-border first-letter:">
 
-                    <input class="outline-none bg-inherit  w-32" type="Search here "><img class="inline-block" src="images/search.png" alt="">
+                    <input class="outline-none bg-inherit  w-32" type="text" placeholder="search here "><img class="inline-block" src="images/search.png" alt="">
                   </div>
                 </ul>
               </div>
@@ -73,6 +75,7 @@
             </div>
           </div>
        </nav>
+       <!-- hero or slider section from here -->
        <div class="carousel overflow-hidden w-full ">
 
         <div id="slide1" class="carousel-item w-full relative ">
@@ -150,27 +153,27 @@
       <div class="box-border p-14 text-center mx-auto max-w-[80%] justify-between items-center gap-11 bg-white rounded-lg relative -top-32 grid grid-cols-5  z-10 shadow-xl">
         <div>
             <img class="inline" src="images/fruit1.png" alt="">
-            <h3 class="text-xl mt-3">cherry</h3>
+            <h5 class="text-base mt-4">Grapes</h5>
 
         </div>
         <div>
             <img class="inline" src="images/fruit2.png" alt="">
-            <h3>Orange</h3>
+            <h5 class="text-base mt-4">Orange</h5>
 
         </div>
         <div>
             <img class="inline" src="images/fruit3.png" alt="">
-            <h3 class="text-xl mt-3">Mango</h3>
+            <h5 class="text-base mt-4">Mango</h5>
 
         </div>
         <div>
             <img class="inline" src="images/fruit4.png" alt="">
-            <h3 class="text-xl mt-3">Strawberry</h3>
+            <h5 class="text-base mt-4">Strawberry</h5>
 
         </div>
         <div>
             <img class="inline" src="images/fruit5.png" alt="">
-            <h3 class="text-xl mt-3">pomegranate</h3>
+            <h5 class="text-base mt-4">Currants</h5>
 
         </div>
       </div>
@@ -190,25 +193,25 @@
                 <div class="grid grid-flow-col gap-5 text-center auto-cols-max lg:w-auto md:w-80 mx-auto ">
                     <div class="flex flex-col">
                       <span class="countdown font-mono text-5xl">
-                        <span class="text-5xl font-extrabold" style="--value:15;"></span>
+                        <span class="text-5xl font-extrabold" style="--value:29;"></span>
                       </span>
                       days
                     </div> 
                     <div class="flex flex-col">
                       <span class="countdown font-mono text-5xl">
-                        <span class="text-5xl font-extrabold" style="--value:10;"></span>
+                        <span class="text-5xl font-extrabold" style="--value:15;"></span>
                       </span>
                       hours
                     </div> 
                     <div class="flex flex-col">
                       <span class="countdown font-mono text-5xl">
-                        <span  class="text-5xl font-extrabold"style="--value:24;"></span>
+                        <span  class="text-5xl font-extrabold"style="--value:25;"></span>
                       </span>
                       min
                     </div> 
                     <div class="flex flex-col">
                       <span class="countdown font-mono text-5xl">
-                        <span class="text-5xl font-extrabold" style="--value:27;"></span>
+                        <span class="text-5xl font-extrabold" style="--value:08;"></span>
                       </span>
                       sec
                     </div>
